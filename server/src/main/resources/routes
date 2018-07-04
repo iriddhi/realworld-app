@@ -4,4 +4,10 @@ GET        /greetings                    controllers.GreeterController.greetings
 GET        /greet                        controllers.GreeterController.greetInMyLanguage
 
 GET        /assets/*file                 controllers.Assets.at(path="/public", file)
+
 GET        /user/:id                     controllers.ApiController.getUser(id: String)
+
+GET        /articles                     controllers.ApiController.getArticles
+
+POST       /user                         controllers.ApiController.newUser
+
