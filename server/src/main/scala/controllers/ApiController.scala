@@ -28,6 +28,9 @@ class ApiController(greetingService: GreetingService,
     )
   )
 
+
+  val tags = Tags(Seq("dragons", "training", "tags", "test", "as", "coffee", "flowers", "sushi", "money", "cars", "cookies", "well", "japan", "caramel", "animation", "clean", "happiness", "sugar", "baby"))
+
   def getUser(id: String) = Action {
     val personJson = Json.toJson(person)
     Ok(personJson)
@@ -49,6 +52,11 @@ class ApiController(greetingService: GreetingService,
   def getArticles = Action {
     val articleJson = Json.toJson(articles)
     Ok(articleJson)
+  }
+
+  def getTags = Action {
+    val tagsJson = Json.toJson(tags)
+    Ok(tagsJson)
   }
 
 

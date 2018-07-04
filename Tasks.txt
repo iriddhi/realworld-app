@@ -1,0 +1,67 @@
+Task 1
+
+  def getUser(id: String) = Action {
+     val personJson = Json.toJson(person)
+     Ok(personJson)
+  }
+
+  Homework
+  create api for posting
+  POST  /user controllers.ApiController.newUser
+  in newUser
+  Json.validate[Person].get
+  print
+
+  All articles api
+
+
+
+
+-------------------------------------------------------------------------------------------
+Task 2
+
+POST request Json payload
+
+{
+    "user": {
+        "email": "riddhi041995@mailinator.com",
+        "password": "riddhi041994",
+        "username": "iamriddhii"
+    }
+}
+
+
+Response
+
+1. If the request payload format is wrong
+BadRequest()
+
+Json response format
+{
+    "error": "Request payload format is wrong"
+}
+
+2. if Password size is less than 8 character give response as
+
+BadRequest()
+
+Json reponse format
+{
+    "error": "Password size should be greater than 8 characters"
+}
+
+3. If everything is ok
+{
+    "user": {
+        "id": 32343,
+        "email": "riddhi041995@mailinator.com",
+        "createdAt": "2018-07-04T05:03:34.937Z",
+        "updatedAt": "2018-07-04T05:03:34.944Z",
+        "username": "iamriddhii",
+        "bio": null,
+        "image": null,
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzIzNDMsInVzZXJuYW1lIjoiaWFtcmlkZGhpIiwiZXhwIjoxNTM1ODY0NjE0fQ.3UQrFV8d9tE5l2zWerjC5BY372deUcfSIgOspwma67M"
+    }
+}
+
+-------------------------------------------------------------------------------------------

@@ -11,3 +11,5 @@ GET        /articles                     controllers.ApiController.getArticles
 
 POST       /user                         controllers.ApiController.newUser
 
+GET        /tags                         controllers.ApiController.getTags
+

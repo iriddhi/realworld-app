@@ -50,4 +50,10 @@ package object models {
     implicit val articlesFormat = Json.format[Articles]
   }
 
+  case class Tags(tags: Seq[String])
+
+  object Tags {
+    implicit val tags = Json.format[Tags]
+  }
+
 }
