@@ -66,15 +66,4 @@ Json response format
     }
 }
 
-UserResponseContainer(User(
-          32343,
-          userAuth.user.email,
-          "2018-07-04T05:03:34.937Z",
-          "2018-07-04T05:03:34.944Z",
-          userAuth.user.username,
-          None,
-          None,
-          "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzIzNDMsInVzZXJuYW1lIjoiaWFtcmlkZGhpIiwiZXhwIjoxNTM1ODY0NjE0fQ.3UQrFV8d9tE5l2zWerjC5BY372deUcfSIgOspwma67M"
-        ))
-
 -------------------------------------------------------------------------------------------

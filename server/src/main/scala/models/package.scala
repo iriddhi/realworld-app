@@ -79,4 +79,10 @@ package object models {
     implicit val format = Json.format[UserAuthContainer]
   }
 
+  case class Error(error: String)
+
+  object Error {
+    implicit val format = Json.format[Error]
+  }
+
 }

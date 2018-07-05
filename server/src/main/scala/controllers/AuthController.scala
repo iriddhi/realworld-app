@@ -1,6 +1,6 @@
 package controllers
 
-import models.{Greeting, User, UserAuthContainer, UserResponseContainer}
+import models._
 import play.api.i18n.Langs
 import play.api.libs.json
 import play.api.libs.json.Json
@@ -14,7 +14,9 @@ class AuthController(greetingService: GreetingService,
   def newUser = Action(parse.json) { request =>
     request.body.validate[UserAuthContainer].fold(
       error => {
-        BadRequest("Json format is not supported")
+        val errorOccured = Error("Request payload format is wrong")
+
+        BadRequest(Json.toJson(errorOccured))
 
       },
 
@@ -30,7 +32,12 @@ class AuthController(greetingService: GreetingService,
             None,
             "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzIzNDMsInVzZXJuYW1lIjoiaWFtcmlkZGhpIiwiZXhwIjoxNTM1ODY0NjE0fQ.3UQrFV8d9tE5l2zWerjC5BY372deUcfSIgOspwma67M"
           ))
-        Ok(Json.toJson(userResponse))
+        if (userAuthContainer.user.password.length < 8) {
+          val errorAppeared = Error("Password size should be greater than 8 characters")
+          BadRequest(Json.toJson(errorAppeared))
+        } else {
+          Ok(Json.toJson(userResponse))
+        }
       }
 
 
