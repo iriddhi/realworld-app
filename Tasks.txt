@@ -67,3 +67,38 @@ Json response format
 }
 
 -------------------------------------------------------------------------------------------
+
+Task 3
+
+Login api
+
+1. Create login api
+
+payload
+{"user":{"email":"riddhidsd@gmail.com", "password":"srsog", "username":"iriddhi"}}
+
+if email matches riddhidsd@gmail.com" then return ok
+{
+    "user": {
+        "id": 32343,
+        "email": "riddhi041995@mailinator.com",
+        "createdAt": "2018-07-04T05:03:34.937Z",
+        "updatedAt": "2018-07-04T05:03:34.944Z",
+        "username": "i am riddhi",
+        "bio": null,
+        "image": null,
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzIzNDMsInVzZXJuYW1lIjoiaWFtcmlkZGhpIiwiZXhwIjoxNTM1ODY0NjE0fQ.3UQrFV8d9tE5l2zWerjC5BY372deUcfSIgOspwma67M"
+    }
+}
+
+else return
+
+{
+    "errors": {
+        "emailOrPassword": [
+            "is invalid"
+        ]
+    }
+}
+
+--------------------------------------------------------------------------------------------------------------------
