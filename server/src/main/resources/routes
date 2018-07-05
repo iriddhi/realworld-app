@@ -9,7 +9,8 @@ GET        /user/:id                     controllers.ApiController.getUser(id: S
 
 GET        /articles                     controllers.ApiController.getArticles
 
-POST       /user                         controllers.ApiController.newUser
 
 GET        /tags                         controllers.ApiController.getTags
 
+# authentication
+POST       /users                        controllers.AuthController.newUser

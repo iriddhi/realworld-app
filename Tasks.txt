@@ -30,6 +30,8 @@ POST request Json payload
     }
 }
 
+case class UserAuth()
+
 
 Response
 
@@ -45,7 +47,7 @@ Json response format
 
 BadRequest()
 
-Json reponse format
+Json response format
 {
     "error": "Password size should be greater than 8 characters"
 }
@@ -57,11 +59,22 @@ Json reponse format
         "email": "riddhi041995@mailinator.com",
         "createdAt": "2018-07-04T05:03:34.937Z",
         "updatedAt": "2018-07-04T05:03:34.944Z",
-        "username": "iamriddhii",
+        "username": "i am riddhi",
         "bio": null,
         "image": null,
         "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzIzNDMsInVzZXJuYW1lIjoiaWFtcmlkZGhpIiwiZXhwIjoxNTM1ODY0NjE0fQ.3UQrFV8d9tE5l2zWerjC5BY372deUcfSIgOspwma67M"
     }
 }
+
+UserResponseContainer(User(
+          32343,
+          userAuth.user.email,
+          "2018-07-04T05:03:34.937Z",
+          "2018-07-04T05:03:34.944Z",
+          userAuth.user.username,
+          None,
+          None,
+          "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzIzNDMsInVzZXJuYW1lIjoiaWFtcmlkZGhpIiwiZXhwIjoxNTM1ODY0NjE0fQ.3UQrFV8d9tE5l2zWerjC5BY372deUcfSIgOspwma67M"
+        ))
 
 -------------------------------------------------------------------------------------------

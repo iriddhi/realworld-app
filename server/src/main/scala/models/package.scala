@@ -53,7 +53,30 @@ package object models {
   case class Tags(tags: Seq[String])
 
   object Tags {
-    implicit val tags = Json.format[Tags]
+    implicit val tagsFormat = Json.format[Tags]
+  }
+
+  case class User(id: Int, email: String, createdAt: String, updatedAt: String, userName: String, bio: Option[String], image: Option[String], token: String)
+
+  case class UserResponseContainer(user: User)
+
+  object User {
+    implicit val userFormat = Json.format[User]
+  }
+  object UserResponseContainer{
+    implicit val format = Json.format[UserResponseContainer]
+  }
+
+
+  case class UserAuthContainer(user: UserAuth)
+  case class UserAuth(email: String, password: String, username: String)
+
+  object UserAuth{
+    implicit val format = Json.format[UserAuth]
+  }
+
+  object UserAuthContainer {
+    implicit val format = Json.format[UserAuthContainer]
   }
 
 }

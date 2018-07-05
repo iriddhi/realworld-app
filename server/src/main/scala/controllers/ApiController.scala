@@ -46,7 +46,6 @@ class ApiController(greetingService: GreetingService,
       }.recover {
         case _ => BadRequest("The format is not supported")
       }.get
-
   }
 
   def getArticles = Action {
@@ -59,18 +58,10 @@ class ApiController(greetingService: GreetingService,
     Ok(tagsJson)
   }
 
+  val user = User(32343, "riddhi041994@mailinator.com", "2018-07-04T05:03:34.937Z", "2018-07-04T05:03:34.937Z", "i am riddhi", None, None, "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzIzNDMsInVzZXJuYW1lIjoiaWFtcmlkZGhpIiwiZXhwIjoxNTM1ODY0NjE0fQ.3UQrFV8d9tE5l2zWerjC5BY372deUcfSIgOspwma67M")
 
-  //  def getUser(id: String) = Action {
-  //    val personJson = Json.toJson(person)
-  //    Ok(personJson)
-  //  }
-
-  // Homework
-  // create api for posting
-  // POST  /user controllers.ApiController.newUser
-  // in newUser
-  // Json.validate[Person].get
-  // print
-
-  // All articles api
+  def getUser = Action {
+    val userJson = Json.toJson(user)
+    Ok(userJson)
+  }
 }
