@@ -14,3 +14,5 @@ GET        /tags                         controllers.ApiController.getTags
 
 # authentication
 POST       /users                        controllers.AuthController.newUser
+POST       /users/login                  controllers.AuthController.login
+GET        /user                         controllers.AuthController.getCurrentUser
