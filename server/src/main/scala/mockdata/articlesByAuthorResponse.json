@@ -1,0 +1,65 @@
+{
+  "articles": [
+    {
+      "title": "javascript pattern and test",
+      "slug": "javascript-pattern-and-test",
+      "body": "it's hard.",
+      "createdAt": "2017-03-25T18:27:57.205Z",
+      "updatedAt": "2017-03-25T18:27:57.205Z",
+      "tagList": [
+        "test",
+        "javascript"
+      ],
+      "description": null,
+      "author": {
+        "username": "johnjacob",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 2
+    },
+    {
+      "title": "How to train your drdagon",
+      "slug": "how-to-train-your-drdagon",
+      "body": "With two dhands",
+      "createdAt": "2017-03-02T21:50:24.855Z",
+      "updatedAt": "2017-03-02T21:50:49.203Z",
+      "tagList": [
+        "training",
+        "dragons"
+      ],
+      "description": null,
+      "author": {
+        "username": "johnjacob",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 3
+    },
+    {
+      "title": "How to train your dragon",
+      "slug": "how-to-train-your-dragon",
+      "body": "With two hands",
+      "createdAt": "2016-10-04T18:51:25.931Z",
+      "updatedAt": "2016-10-04T18:51:26.189Z",
+      "tagList": [
+        "training",
+        "dragons"
+      ],
+      "description": null,
+      "author": {
+        "username": "johnjacob",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 10
+    }
+  ],
+  "articlesCount": 3
+}

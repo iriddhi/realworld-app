@@ -1,4 +1,4 @@
-import controllers.{ApiController, AuthController, GreeterController}
+import controllers.{ApiController, ArticlesController, AuthController, GreeterController}
 import play.api.i18n.Langs
 import play.api.mvc.ControllerComponents
 import services.ServicesModule
@@ -10,6 +10,7 @@ trait GreetingModule extends ServicesModule {
   lazy val greeterController = wire[GreeterController]
   lazy val apiController = wire[ApiController]
   lazy val authController = wire[AuthController]
+  lazy val articlesController = wire[ArticlesController]
 
   def langs: Langs
 

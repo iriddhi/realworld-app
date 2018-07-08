@@ -32,29 +32,9 @@ package object models {
     implicit val personFormat = Json.format[Person]
   }
 
-  case class Articles(articles: Seq[Article], articleCount: Int)
 
-  case class Article(title: String, slug: String, body: String, createdAt: String, updatedAt: String, description: String, author: Seq[Author], favorited: Boolean, favoritesCount: Int, tagList: Seq[String])
 
-  case class Author(username: String, bio: Option[String], image: String, following: Boolean)
 
-  object Author {
-    implicit val authorFormat = Json.format[Author]
-  }
-
-  object Article {
-    implicit val articlesFormat = Json.format[Article]
-  }
-
-  object Articles {
-    implicit val articlesFormat = Json.format[Articles]
-  }
-
-  case class Tags(tags: Seq[String])
-
-  object Tags {
-    implicit val tagsFormat = Json.format[Tags]
-  }
 
   case class User(id: Int, email: String, createdAt: String, updatedAt: String, userName: String, bio: Option[String], image: Option[String], token: String)
 

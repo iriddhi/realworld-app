@@ -7,8 +7,6 @@ GET        /assets/*file                 controllers.Assets.at(path="/public", f
 
 GET        /user/:id                     controllers.ApiController.getUser(id: String)
 
-GET        /articles                     controllers.ApiController.getArticles
-
 
 GET        /tags                         controllers.ApiController.getTags
 
@@ -16,3 +14,9 @@ GET        /tags                         controllers.ApiController.getTags
 POST       /users                        controllers.AuthController.newUser
 POST       /users/login                  controllers.AuthController.login
 GET        /user                         controllers.AuthController.getCurrentUser
+
+# articles
+GET        /articles                     controllers.ArticlesController.getArticles(limit: Option[Int], offset:Option[Int],author: Option[String], favorited: Option[String], tag: Option[String])
+
+
+GET        /articles/:slug               controllers.ArticlesController.getArticleBySlug(slug: String)

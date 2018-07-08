@@ -12,10 +12,10 @@ class ApiController(greetingService: GreetingService,
                     cc: ControllerComponents) extends AbstractController(cc) {
 
 
-  val articles = Articles(Seq(Article("tes 1", "tes1-kme2d0", "test only", "2018-07-02T02:46:31.902Z", "2018-07-02T02:46:31.902Z", "tes 1 test",
-    Seq(
-      Author("tes", None, "https://static.productionready.io/images/smiley-cyrus.jpg", false)),
-    false, 1, Seq("elm", "learn"))), 500)
+  val articles = Articles(Seq(Article("How to train your drdagon", "How-to-train-your-drdagon", "with two dhands", "2018-07-02T02:46:31.902Z", "2018-07-02T02:46:31.902Z", None,
+
+      Author("johnjacob", None, "https://static.productionready.io/images/smiley-cyrus.jpg", false),
+    false, 1, Seq("training", "dragons"))), 500)
 
 
   val person = new Person("Riddhi",
@@ -48,11 +48,6 @@ class ApiController(greetingService: GreetingService,
       }.get
   }
 
-  def getArticles = Action {
-    val articleJson = Json.toJson(articles)
-    Ok(articleJson)
-  }
-
   def getTags = Action {
     val tagsJson = Json.toJson(tags)
     Ok(tagsJson)
@@ -64,4 +59,21 @@ class ApiController(greetingService: GreetingService,
     val userJson = Json.toJson(user)
     Ok(userJson)
   }
+
+  def articleByAuthor = Action {
+    val aarticleJson = Json.toJson(articles)
+    Ok(aarticleJson)
+  }
+
+  def articlesFavoritedByUsername = Action {
+    val aarticleFavoritedJson = Json.toJson(articles)
+    Ok(aarticleFavoritedJson)
+  }
+
+  def singleArticleBySlug = Action {
+    val singleArticleJson = Json.toJson(articles)
+    Ok(singleArticleJson)
+  }
+
+
 }
