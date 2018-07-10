@@ -1,0 +1,420 @@
+{
+  "articles": [
+    {
+      "title": "Dragon baby",
+      "slug": "dragon-baby-ctqn0i",
+      "body": "Happy dragon baby likes sugar with his coffee",
+      "createdAt": "2018-07-08T08:13:59.672Z",
+      "updatedAt": "2018-07-08T08:14:37.098Z",
+      "tagList": [
+        "baby",
+        "happiness",
+        "sugar",
+        "clean",
+        "animation",
+        "caramel",
+        "japan",
+        "well",
+        "cookies",
+        "cars",
+        "money",
+        "sushi",
+        "flowers",
+        "coffee",
+        "as",
+        "tags",
+        "test",
+        "training",
+        "dragons"
+      ],
+      "description": "Article about dragon baby",
+      "author": {
+        "username": "uroskrunic",
+        "bio": "a",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/617I2AGeW5L.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 2
+    },
+    {
+      "title": "How to train your dragon",
+      "slug": "how-to-train-your-dragon-9nfso7",
+      "body": "Very carefully.",
+      "createdAt": "2018-07-05T17:43:23.508Z",
+      "updatedAt": "2018-07-05T17:43:23.508Z",
+      "tagList": [
+        "training",
+        "dragons"
+      ],
+      "description": "Ever wonder how?",
+      "author": {
+        "username": "joewhatuser",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 5
+    },
+    {
+      "title": "Bill Test",
+      "slug": "bill-test-xshcte",
+      "body": "This is a list:\n\n* First\n* Second\n\n**Awesome2**\n\nThis is a new edit. ANother edit",
+      "createdAt": "2018-07-05T12:56:42.638Z",
+      "updatedAt": "2018-07-07T17:38:05.708Z",
+      "tagList": [
+        "dragons"
+      ],
+      "description": "A quick test",
+      "author": {
+        "username": "test1444",
+        "bio": "",
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Hello",
+      "slug": "hello-9k7xh1",
+      "body": "**Hello**\nHello",
+      "createdAt": "2018-07-04T05:57:19.084Z",
+      "updatedAt": "2018-07-04T05:59:24.606Z",
+      "tagList": [
+        "dragons",
+        "Hello"
+      ],
+      "description": "Hello",
+      "author": {
+        "username": "a44",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "How to train your dragon",
+      "slug": "how-to-train-your-dragon-au6289",
+      "body": "Very carefully.",
+      "createdAt": "2018-07-02T19:39:47.101Z",
+      "updatedAt": "2018-07-02T19:39:47.101Z",
+      "tagList": [
+        "training",
+        "dragons"
+      ],
+      "description": "Ever wonder how?",
+      "author": {
+        "username": "joewhatuser",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "Dragonz",
+      "slug": "dragonz-v4q2ph",
+      "body": "`hey`",
+      "createdAt": "2018-07-02T09:18:11.047Z",
+      "updatedAt": "2018-07-02T09:18:11.047Z",
+      "tagList": [
+        "dragons"
+      ],
+      "description": "drag on",
+      "author": {
+        "username": "mass",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "How to train your dragon",
+      "slug": "how-to-train-your-dragon-df8gkv",
+      "body": "Very carefully.",
+      "createdAt": "2018-07-02T04:53:48.311Z",
+      "updatedAt": "2018-07-02T04:53:48.311Z",
+      "tagList": [
+        "training",
+        "dragons"
+      ],
+      "description": "Ever wonder how?",
+      "author": {
+        "username": "joewhatuser",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "How to train your dragon",
+      "slug": "how-to-train-your-dragon-70wbq7",
+      "body": "Very carefully.",
+      "createdAt": "2018-07-02T04:35:50.792Z",
+      "updatedAt": "2018-07-02T04:35:50.792Z",
+      "tagList": [
+        "training",
+        "dragons"
+      ],
+      "description": "Ever wonder how?",
+      "author": {
+        "username": "joewhatuser",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Test",
+      "slug": "test-ycx0q4",
+      "body": "dwadwad",
+      "createdAt": "2018-07-01T12:10:31.314Z",
+      "updatedAt": "2018-07-01T12:10:31.314Z",
+      "tagList": [
+        "Hello",
+        "dragons"
+      ],
+      "description": "test",
+      "author": {
+        "username": "12444444",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 0
+    },
+    {
+      "title": "kdfsdkjfkls fsdjfksdjklf sdlkg dsfkl gsd",
+      "slug": "kdfsdkjfkls-fsdjfksdjklf-sdlkg-dsfkl-gsd-geoeho",
+      "body": "sdfsd g sfgagsjhf jsd fhsBFK .gsdkfgsd .mjsgdJKSHGKJHSAK JGASDGS",
+      "createdAt": "2018-06-30T09:58:40.406Z",
+      "updatedAt": "2018-06-30T10:02:27.139Z",
+      "tagList": [
+        "sads",
+        "coco",
+        "dragons"
+      ],
+      "description": "sdfsdg sfdg fg",
+      "author": {
+        "username": "sgsdf",
+        "bio": null,
+        "image": "",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Nikhil",
+      "slug": "nikhil-5duc4g",
+      "body": "Nikhil",
+      "createdAt": "2018-06-28T12:53:55.633Z",
+      "updatedAt": "2018-06-28T12:53:55.633Z",
+      "tagList": [
+        "dragons",
+        "angularjs",
+        "reactjs"
+      ],
+      "description": "Nikhil",
+      "author": {
+        "username": "kk_hello",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "trewwe",
+      "slug": "trewwe-5bddmq",
+      "body": "dsfdsd fmdsf ",
+      "createdAt": "2018-06-26T07:04:50.607Z",
+      "updatedAt": "2018-06-26T07:04:50.607Z",
+      "tagList": [
+        "training",
+        "test",
+        "dragons"
+      ],
+      "description": "dsaf af",
+      "author": {
+        "username": "123lalala",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 5
+    },
+    {
+      "title": "TE",
+      "slug": "te-1m34zu",
+      "body": "baba",
+      "createdAt": "2018-06-20T21:03:55.765Z",
+      "updatedAt": "2018-06-20T21:03:55.765Z",
+      "tagList": [
+        "dragons"
+      ],
+      "description": "ST",
+      "author": {
+        "username": "alion",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 8
+    },
+    {
+      "title": "How to train your hand",
+      "slug": "how-to-train-your-hand-3e50du",
+      "body": "with two dragons.",
+      "createdAt": "2018-06-18T14:16:47.183Z",
+      "updatedAt": "2018-06-18T14:16:47.183Z",
+      "tagList": [
+        "dragons"
+      ],
+      "description": "Ever wonder how?",
+      "author": {
+        "username": "gabriel toshio",
+        "bio": "yo",
+        "image": "https://res.cloudinary.com/teepublic/image/private/s--6Z8IziH8--/t_Resized%20Artwork/c_fit,g_north_west,h_1054,w_1054/co_ffffff,e_outline:53/co_ffffff,e_outline:inner_fill:53/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_jpg,h_630,q_90,w_630/v1511268293/production/designs/2083304_1.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 3
+    },
+    {
+      "title": "adfafaf",
+      "slug": "adfafaf-r8rlwj",
+      "body": "lkemfalsdkfmlskfmal",
+      "createdAt": "2018-06-14T16:29:09.880Z",
+      "updatedAt": "2018-06-14T16:29:09.880Z",
+      "tagList": [
+        "dragons"
+      ],
+      "description": "lefmasldkfm",
+      "author": {
+        "username": "Gabriel",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "Added new article",
+      "slug": "added-new-article-7uota3",
+      "body": "You have to believe",
+      "createdAt": "2018-06-14T01:20:43.628Z",
+      "updatedAt": "2018-06-14T01:20:43.628Z",
+      "tagList": [
+        "dragons",
+        "angularjs",
+        "reactjs"
+      ],
+      "description": "Ever wonder how?",
+      "author": {
+        "username": "Sonam",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 1
+    },
+    {
+      "title": "asdf",
+      "slug": "asdf-fwzu9c",
+      "body": "### Wee!",
+      "createdAt": "2018-06-03T22:24:00.486Z",
+      "updatedAt": "2018-06-03T22:24:00.486Z",
+      "tagList": [
+        "dragons"
+      ],
+      "description": "Monkey",
+      "author": {
+        "username": "randito1",
+        "bio": "testing",
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 13
+    },
+    {
+      "title": "How to train your dragon",
+      "slug": "how-to-train-your-dragon-sbr0z2",
+      "body": "Very carefully.",
+      "createdAt": "2018-06-03T15:44:01.786Z",
+      "updatedAt": "2018-06-03T15:44:01.786Z",
+      "tagList": [
+        "training",
+        "dragons"
+      ],
+      "description": "Ever wonder how?",
+      "author": {
+        "username": "johnnyjacob",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 10
+    },
+    {
+      "title": "How to train your dragon",
+      "slug": "how-to-train-your-dragon-5pfbac",
+      "body": "Very carefully.",
+      "createdAt": "2018-06-02T15:44:04.121Z",
+      "updatedAt": "2018-06-02T15:44:04.121Z",
+      "tagList": [
+        "training",
+        "dragons"
+      ],
+      "description": "Ever wonder how?",
+      "author": {
+        "username": "johnnyjacob",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 2
+    },
+    {
+      "title": "How to train your dragon1",
+      "slug": "how-to-train-your-dragon1-n9ah3m",
+      "body": "Very carefully.",
+      "createdAt": "2018-06-02T01:12:24.472Z",
+      "updatedAt": "2018-06-02T01:12:24.472Z",
+      "tagList": [
+        "training",
+        "dragons"
+      ],
+      "description": "Ever wonder how?",
+      "author": {
+        "username": "SubektiCahyo",
+        "bio": null,
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+      },
+      "favorited": false,
+      "favoritesCount": 4
+    }
+  ],
+  "articlesCount": 500
+}

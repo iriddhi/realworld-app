@@ -1,0 +1,8 @@
+{
+    "profile": {
+        "username": "rick",
+        "bio": "This account is used for testing by the Postman collection.  \nThe password is \"rickjacob\" if you want to add more posts (for \"johnjacob\" to see in his feed). \nBut please do NOT change the username or password.",
+        "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+        "following": false
+    }
+}

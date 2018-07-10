@@ -1,22 +1,26 @@
 
-GET        /                             controllers.GreeterController.index
-GET        /greetings                    controllers.GreeterController.greetings
-GET        /greet                        controllers.GreeterController.greetInMyLanguage
+GET        /                                controllers.GreeterController.index
+GET        /greetings                       controllers.GreeterController.greetings
+GET        /greet                           controllers.GreeterController.greetInMyLanguage
 
-GET        /assets/*file                 controllers.Assets.at(path="/public", file)
+GET        /assets/*file                    controllers.Assets.at(path="/public", file)
 
-GET        /user/:id                     controllers.ApiController.getUser(id: String)
+GET        /user/:id                        controllers.ApiController.getUser(id: String)
 
 
-GET        /tags                         controllers.ApiController.getTags
+GET        /tags                            controllers.ApiController.getTags
 
 # authentication
-POST       /users                        controllers.AuthController.newUser
-POST       /users/login                  controllers.AuthController.login
-GET        /user                         controllers.AuthController.getCurrentUser
+POST       /users                           controllers.AuthController.newUser
+POST       /users/login                     controllers.AuthController.login
+GET        /user                            controllers.AuthController.getCurrentUser
 
 # articles
-GET        /articles                     controllers.ArticlesController.getArticles(limit: Option[Int], offset:Option[Int],author: Option[String], favorited: Option[String], tag: Option[String])
+GET        /articles                        controllers.ArticlesController.getArticles(limit: Option[Int], offset:Option[Int],author: Option[String], favorited: Option[String], tag: Option[String])
 
 
-GET        /articles/:slug               controllers.ArticlesController.getArticleBySlug(slug: String)
+GET        /articles/:slug                  controllers.ArticlesController.getArticleBySlug(slug: String)
+GET        /articles/:articleName/comments  controllers.ArticlesController.getCommentsForArticle(articleName: String)
+
+#profile
+GET        /profiles/:username              controllers.ProfileController.getProfile(username: String)
